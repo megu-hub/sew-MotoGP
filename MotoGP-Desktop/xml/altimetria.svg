@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1200" height="600">
+    <rect x="0" y="0" width="1200" height="600" style="fill:white;stroke:lightgray;stroke-width:1" />
+    <polyline points="80.0,280.0 116.53908089309311,280.0 146.42407052486598,400.0 178.3482171755585,400.0 221.2463766762428,400.0 268.64350385760787,400.0 318.0609740247844,400.0 356.7988691241032,520.0 395.4634164324365,520.0 425.9047120025789,520.0 458.6077400239896,520.0 494.18968370049254,520.0 531.4605791117692,400.0 577.0768882006031,400.0 619.0872702067167,280.0 655.4084198751611,280.0 699.8390227770958,160.0 699.8390227770958,160.0 741.0234624258085,160.0 777.3186118752901,160.0 811.4278867844863,160.0 839.7535793797157,160.0 873.246268546263,160.0 904.1697345292832,40.0 932.7683992318307,40.0 963.691831133429,40.0 996.3948798729269,40.0 1036.533904329296,40.0 1063.6862665426283,40.0 1091.4838174140516,160.0 1125.8908158981212,160.0 1160.0,160.0 1160,520 80,520" style="fill:lightblue;stroke:blue;stroke-width:2" />
+    <line x1="80" y1="40" x2="80" y2="520" style="stroke:black;stroke-width:2" />
+    <line x1="80" y1="520" x2="1160" y2="520" style="stroke:black;stroke-width:2" />
+    <line x1="75" y1="520.0" x2="80" y2="520.0" style="stroke:black;stroke-width:1" />
+    <text x="70" y="525.0" style="font-size:12px;fill:black;text-anchor:end">267m</text>
+    <line x1="75" y1="423.99999999999864" x2="80" y2="423.99999999999864" style="stroke:black;stroke-width:1" />
+    <text x="70" y="428.99999999999864" style="font-size:12px;fill:black;text-anchor:end">268m</text>
+    <line x1="75" y1="327.99999999999727" x2="80" y2="327.99999999999727" style="stroke:black;stroke-width:1" />
+    <text x="70" y="332.99999999999727" style="font-size:12px;fill:black;text-anchor:end">269m</text>
+    <line x1="75" y1="232.00000000000273" x2="80" y2="232.00000000000273" style="stroke:black;stroke-width:1" />
+    <text x="70" y="237.00000000000273" style="font-size:12px;fill:black;text-anchor:end">269m</text>
+    <line x1="75" y1="136.00000000000136" x2="80" y2="136.00000000000136" style="stroke:black;stroke-width:1" />
+    <text x="70" y="141.00000000000136" style="font-size:12px;fill:black;text-anchor:end">270m</text>
+    <line x1="75" y1="40.0" x2="80" y2="40.0" style="stroke:black;stroke-width:1" />
+    <text x="70" y="45.0" style="font-size:12px;fill:black;text-anchor:end">271m</text>
+    <line x1="80.0" y1="520" x2="80.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="80.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">0m</text>
+    <line x1="188.0" y1="520" x2="188.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="188.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">310m</text>
+    <line x1="296.0" y1="520" x2="296.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="296.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">619m</text>
+    <line x1="404.0" y1="520" x2="404.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="404.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">929m</text>
+    <line x1="512.0" y1="520" x2="512.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="512.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">1238m</text>
+    <line x1="620.0" y1="520" x2="620.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="620.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">1548m</text>
+    <line x1="728.0" y1="520" x2="728.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="728.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">1858m</text>
+    <line x1="836.0" y1="520" x2="836.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="836.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">2167m</text>
+    <line x1="944.0" y1="520" x2="944.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="944.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">2477m</text>
+    <line x1="1052.0" y1="520" x2="1052.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="1052.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">2786m</text>
+    <line x1="1160.0" y1="520" x2="1160.0" y2="525" style="stroke:black;stroke-width:1" />
+    <text x="1160.0" y="540" style="font-size:12px;fill:black;text-anchor:middle">3096m</text>
+    <text x="600.0" y="580" style="font-size:14px;fill:black;text-anchor:middle">Distancia (m)</text>
+    <text x="20" y="300.0" transform="rotate(-90 20 300.0)" style="font-size:14px;fill:black;text-anchor:middle">Altitud (m)</text>
+    <text x="600.0" y="25" style="font-size:16px;fill:black;text-anchor:middle">Perfil Altimetrico del Circuito</text>
+</svg>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuito xmlns="http://www.uniovi.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uniovi.es circuito.xsd">
+
+<nombre>Termas del Río Hondo</nombre>
+<longitudTramo unidades="m">4800</longitudTramo>
+<anchuraTramo unidades="m">16</anchuraTramo>
+<fecha>2025-03-16</fecha>
+<inicio>19:00:00</inicio>
+<vueltas>25</vueltas>
+<localidadProx>Santiago de Estero</localidadProx>
+<pais>Argentina</pais>
+<patrocinador>YPF</patrocinador>
+<referencias>
+    <referencia rDescripcion="Wikipedia del Autódromo de Termas de Río Hondo" 
+        url="https://es.wikipedia.org/wiki/Autódromo_Internacional_de_Termas_de_Río_Hondo">Wikipedia
+    </referencia>
+
+    <referencia rDescripcion="Página oficial del Autódromo de Termas de Río Hondo" 
+        url="https://autodromotermas.com">Autódromo de Termas de Río Hondo
+    </referencia>
+
+    <referencia rDescripcion="Más información del circuito" 
+        url="https://actc.org.ar/tc/circuitos/termas-de-rio-hondo-largo_20.html">ACTC Argentina
+    </referencia>
+</referencias>
+<fotos>
+    <foto fDescripcion="Foto del circuito">../multimedia/termas.jpg</foto>
+    <foto fDescripcion="Mapa del circuito">../multimedia/circuito.jpg</foto>
+</fotos>
+<videos>
+    <video vDescripcion="Video del circuito con un motorista recorriendolo">../multimedia/circuito.mp4</video>
+</videos>
+<puntos>
+    <punto>
+        <pLongitud>-64.9358</pLongitud> 
+        <pLatitud>-27.4956</pLatitud>
+        <pAltitud>269</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9349</pLongitud> 
+        <pLatitud>-27.4951</pLatitud>
+        <pAltitud>269</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9341</pLongitud> 
+        <pLatitud>-27.4948</pLatitud>
+        <pAltitud>268</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9332</pLongitud> 
+        <pLatitud>-27.4946</pLatitud>
+        <pAltitud>268</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9320</pLongitud> 
+        <pLatitud>-27.4943</pLatitud>
+        <pAltitud>268</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9308</pLongitud> 
+        <pLatitud>-27.4949</pLatitud>
+        <pAltitud>268</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9296</pLongitud> 
+        <pLatitud>-27.4942</pLatitud>
+        <pAltitud>268</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9287</pLongitud> 
+        <pLatitud>-27.4948</pLatitud>
+        <pAltitud>267</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9279</pLongitud> 
+        <pLatitud>-27.4955</pLatitud>
+        <pAltitud>267</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9275</pLongitud> 
+        <pLatitud>-27.4962</pLatitud>
+        <pAltitud>267</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9272</pLongitud> 
+        <pLatitud>-27.4970</pLatitud>
+        <pAltitud>267</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9274</pLongitud> 
+        <pLatitud>-27.4979</pLatitud>
+        <pAltitud>267</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9280</pLongitud> 
+        <pLatitud>-27.4987</pLatitud>
+        <pAltitud>268</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9292</pLongitud> 
+        <pLatitud>-27.4992</pLatitud>
+        <pAltitud>268</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9304</pLongitud> 
+        <pLatitud>-27.4994</pLatitud>
+        <pAltitud>269</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9314</pLongitud> 
+        <pLatitud>-27.4991</pLatitud>
+        <pAltitud>269</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9325</pLongitud> 
+        <pLatitud>-27.4985</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+    
+    <punto>
+        <pLongitud>-64.9325</pLongitud> 
+        <pLatitud>-27.4985</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+
+    <punto>
+        <pLongitud>-64.9334</pLongitud> 
+        <pLatitud>-27.4978</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9341</pLongitud> 
+        <pLatitud>-27.4971</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+        <punto>
+        <pLongitud>-64.9347</pLongitud> 
+        <pLatitud>-27.4964</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+        <punto>
+        <pLongitud>-64.9353</pLongitud> 
+        <pLatitud>-27.4959</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+        <punto>
+        <pLongitud>-64.9360</pLongitud> 
+        <pLatitud>-27.4953</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+    <punto>
+        <pLongitud>-64.9367</pLongitud> 
+        <pLatitud>-27.4948</pLatitud>
+        <pAltitud>271</pAltitud>
+    </punto>
+        <punto>
+        <pLongitud>-64.9375</pLongitud> 
+        <pLatitud>-27.4950</pLatitud>
+        <pAltitud>271</pAltitud>
+    </punto>
+        <punto>
+        <pLongitud>-64.9382</pLongitud> 
+        <pLatitud>-27.4955</pLatitud>
+        <pAltitud>271</pAltitud>
+    </punto>
+        <punto>
+        <pLongitud>-64.9385</pLongitud> 
+        <pLatitud>-27.4963</pLatitud>
+        <pAltitud>271</pAltitud>
+        
+    </punto>
+        <punto>
+        <pLongitud>-64.9382</pLongitud> 
+        <pLatitud>-27.4973</pLatitud>
+        <pAltitud>271</pAltitud>
+    </punto>
+
+        <punto>
+        <pLongitud>-64.9382</pLongitud> 
+        <pLatitud>-27.4980</pLatitud>
+        <pAltitud>271</pAltitud>
+    </punto>
+
+        <punto>
+        <pLongitud>-64.9374</pLongitud> 
+        <pLatitud>-27.4979</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+        <punto>
+        <pLongitud>-64.9364</pLongitud> 
+        <pLatitud>-27.4979</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+            <punto>
+        <pLongitud>-64.9358</pLongitud> 
+        <pLatitud>-27.4972</pLatitud>
+        <pAltitud>270</pAltitud>
+    </punto>
+
+</puntos>
+<vencedor tiempo="PT41M11.100S">Mark Marquéz</vencedor>
+<clasificados>
+    <clasificado>M. Marquez</clasificado>
+    <clasificado>A. Marquez</clasificado>
+    <clasificado>M. Bezzecchi</clasificado>
+</clasificados>
+</circuito>

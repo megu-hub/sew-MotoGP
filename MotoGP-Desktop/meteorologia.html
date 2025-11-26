@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>MotoGP-Meteorología</title>
+	
+	<meta name="keywords" content="Moto, MotoGP" />
+	<meta name="author" content = "Clara Fernández" />
+	<meta name = "description" content = "Información de la metodología" />
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="multimedia/icono.ico">
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+	<script src="js/ciudad.js"></script>
+	<script
+		src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+		crossorigin="anonymous">	</script>
+	
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+	<header>
+    <h1><a href="index.html" title="Inicio"></a>MotoGP Desktop</h1>
+	<nav>
+	<a href="index.html" title="Inicio">Inicio</a>
+	<a href="piloto.html" title="Información del Marco Bezzecchi">Piloto</a>
+	<a href="circuito.html" title="Información del circuito">Circuito</a>
+	<a href="meteorologia.html" title="Información de la meteorología" class="active">Meteorología</a>
+	<a href="clasificaciones.php" title="Información de las clasificaciones">Clasificaciones</a>
+	<a href="juegos.html" title="Información de juegos">Juegos</a>
+	<a href="ayuda.html" title="Información de Ayuda">Ayuda</a>
+	</nav>
+	</header>
+	<p>Estás en:
+	<a href="index.html" title="Inicio">Inicio</a> >> <strong>Meteorología</strong>
+	</p>
+
+	<main>
+	<h2>Meteorología de MotoGP-Desktop</h2>
+	<article></article>
+	<script>
+		
+	let ciudad = new Ciudad("Termas del Río Hondo", "Argentina", "termense");
+	
+	ciudad.rellenarDatos(32166, -27.4931, -64.8591);
+
+	const nombre = document.createElement("h3");
+	nombre.textContent = ciudad.getNombre();
+
+	const pais = document.createElement("p");
+	pais.textContent = ciudad.getPais();
+	const info = document.createElement("ul");
+	info.innerHTML = ciudad.getInfoSecundaria();
+
+	document.body.append(nombre, pais, info);
+
+	ciudad.escribeCoordenadas();
+	
+	ciudad.getMeteorologiaCarrera();
+
+	ciudad.getMeteorologiaEntrenos();
+
+	</script>
+	</main>
+
+</body>
+</html>

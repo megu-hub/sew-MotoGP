@@ -1,0 +1,63 @@
+/* Clara Fernández Pérez UO299971 */
+/* Estilos generales del proyecto MotoGP-Desktop*/
+
+/* Especifidad 001 */
+body {
+    color: #FFFFFF; 
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+/* Especifidad 001 */
+header {
+    background-color: #AC1B1B; 
+}
+
+/* Especifidad 001 */
+h1 { 
+    color: #FFFFFF; 
+} 
+
+/* Especifidad 001 */
+h2 {
+    background-color: #AC1B1B; 
+    color: #FFFFFF; 
+} 
+
+/* Especifidad 001 */
+/* Hereda de body*/
+h3 {
+    color: #FFFFFF; 
+} 
+
+/* Especifidad 001 */
+p { 
+    text-align: justify;
+    color: #E0E0E0; 
+} 
+
+/*Especifidad 001*/
+a {
+    color: #ffa1a1; 
+}
+
+/* Especifidad 002 */
+/* Hereda de body*/
+header + p  {
+    font-size: 0.8em;
+    color: #CCCCCC; 
+}
+
+/* Especifidad 002 */
+nav>a {
+    text-decoration-line: none; 
+    color: #FFFFFF;
+}
+
+/*Especifidad 011*/
+a.active {
+    color: #FFFFFF; 
+    background-color: #7c0000; 
+}
+
+

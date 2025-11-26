@@ -1,0 +1,34 @@
+
+/* Clara Fernández Pérez UO299971 */
+/* Estilos disposición de las cartas de los juegos del proyecto MotoGP-Desktop*/
+
+/* Especifidad 001 */
+main{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    padding:3em;
+}
+
+/* Especifidad 002 */
+main h2{
+    
+    text-align: center;
+    grid-column:1/-1
+}
+
+/* Especifidad 002 */
+main p{
+    text-align: center;
+    grid-column:1/-1
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+    
+    main{
+    display:grid;
+    grid-template-columns: repeat(2,6fr);
+    gap: 1em;
+    padding:3em;
+}
+}

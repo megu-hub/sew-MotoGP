@@ -1,0 +1,43 @@
+<!-- Circuito Raíz-->
+<!ELEMENT circuito (nombre, longitudTramo, anchuraTramo, fecha, inicio, vueltas, localidadProx, pais, patrocinador, referencias,fotos,videos,puntos,vencedor,clasificados)>
+
+<!-- Circuito sub-elements -->
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT longitudTramo (#PCDATA)>
+<!ATTLIST longitudTramo unidades CDATA #REQUIRED>
+
+<!ELEMENT anchuraTramo (#PCDATA)>
+<!ATTLIST anchuraTramo unidades CDATA #REQUIRED>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT vueltas (#PCDATA)>
+<!ELEMENT localidadProx (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT patrocinador (#PCDATA)>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia rDescripcion CDATA #REQUIRED
+    url CDATA #REQUIRED>
+ 
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto fDescripcion CDATA #REQUIRED>
+
+<!ELEMENT videos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST video vDescripcion CDATA #REQUIRED>
+
+<!ELEMENT puntos (punto*)>
+<!ELEMENT punto (pLongitud, pLatitud, pAltitud)>
+<!ELEMENT pLongitud (#PCDATA)>
+<!ELEMENT pLatitud (#PCDATA)>
+<!ELEMENT pAltitud (#PCDATA)>
+
+<!ELEMENT vencedor (#PCDATA)>
+<!ATTLIST vencedor tiempo CDATA #REQUIRED>
+
+<!ELEMENT clasificados (clasificado+)>
+<!ELEMENT clasificado (#PCDATA)>
