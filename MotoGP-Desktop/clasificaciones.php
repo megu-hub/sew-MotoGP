@@ -14,7 +14,6 @@ class Clasificacion {
 
         $xml = new SimpleXMLElement($datos);
 
-        // Verificar que exista <clasificados>
         if (isset($xml->clasificados)) {
             echo "<h3>Clasificados:</h3><ul>";
             foreach ($xml->clasificados->clasificado as $item) {

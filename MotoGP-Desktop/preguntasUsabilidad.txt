@@ -1,0 +1,10 @@
+1. ¿Cuántas cartas hay en el juego de memoria?
+2. ¿Para cuantos días de entreno se muestra su meteorología?
+3. ¿Qué es el control de tracción?
+4. ¿A qué hora comenzó la carrera en Termas del Rio Hondo?
+5. ¿Quién quedó primero de los clasificados de la carrera?
+6. ¿Cuál es la localidad más próxima al circuito Termas del Rio Hondo?
+7. ¿Cuántos botones tiene el cronómetro?
+8. ¿Cuántas entradas hay en la sección de ayuda?
+9. ¿Cuántas fotografías hay en la sección de piloto?
+10. ¿Cuántas referencias se encuentran en la sección del circuito?
