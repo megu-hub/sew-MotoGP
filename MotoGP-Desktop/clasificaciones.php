@@ -15,11 +15,11 @@ class Clasificacion {
         $xml = new SimpleXMLElement($datos);
 
         if (isset($xml->clasificados)) {
-            echo "<h3>Clasificados:</h3><ul>";
+            echo "<h3>Clasificados:</h3><ol>";
             foreach ($xml->clasificados->clasificado as $item) {
                 echo "<li>" . htmlentities($item) . "</li>";
             }
-            echo "</ul>";
+            echo "</ol>";
         } else {
             echo "<p>No existe el elemento &lt;clasificados&gt; en el XML.</p>";
         }
@@ -57,7 +57,7 @@ $clasif = new Clasificacion();
 	<a href="piloto.html" title="Información del Marco Bezzecchi">Piloto</a>
 	<a href="circuito.html" title="Información del circuito">Circuito</a>
 	<a href="meteorologia.html" title="Información de la meteorología">Meteorología</a>
-	<a href="clasificaciones.html" title="Información de las clasificaciones" class="active">Clasificaciones</a>
+	<a href="clasificaciones.php" title="Información de las clasificaciones" class="active">Clasificaciones</a>
 	<a href="juegos.html" title="Información de juegos">Juegos</a>
 	<a href="ayuda.html" title="Información de Ayuda">Ayuda</a>
 	</nav>

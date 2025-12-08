@@ -66,7 +66,7 @@ if ($_POST) {
 	
 	<meta name="keywords" content="Moto, MotoGP" />
 	<meta name="author" content = "Clara Fernández" />
-	<meta name = "description" content = "Información de los juegos" />
+	<meta name = "description" content = "Cronómetro usando PHP" />
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 	<link rel="icon" href="multimedia/icono.ico"/>
 	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />

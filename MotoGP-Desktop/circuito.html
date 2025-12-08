@@ -41,18 +41,18 @@
 	<h2>Circuito de MotoGP-Desktop</h2>
     <section>
 		<h2>Cargar Altimetría del Circuito</h2>
-		<label for="inputSVG">Selecciona el archivo altimetria.svg:</label>
+		<label for="inputSVG">Carga el archivo SVG:</label>
 		<input type="file" id="inputSVG" accept=".svg" onchange="cargadorSVG.cargarArchivoSVG()">
 		<div id="contenedorSVG"></div>
 	</section>
     <section>
 		<h2>Cargar Información del Circuito</h2>
-		<label for="inputHTML">Selecciona el archivo InfoCircuito.html:</label>
+		<label for="inputHTML">Carga el archivo HTML:</label>
 		<input type="file" id="inputHTML" accept=".html" onchange="circuito.cargarArchivo()">
 	</section>
 	<section>
 		<h2>Cargar Mapa del Circuito</h2>
-		<label for="inputKML">Selecciona circuito.kml:</label>
+		<label for="inputKML">Carga el archivo KML:</label>
 		<input type="file" id="inputKML" accept=".kml" onchange="cargadorKML.cargarArchivoKML()">
 		<div id="mapaCircuito" style="width: 100%; height: 600px;"></div>
 	</section>

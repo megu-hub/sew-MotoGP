@@ -15,11 +15,10 @@ class Cronometro {
   }
 
   inicializar(){
-    
-		let botones = document.querySelectorAll("button");
-		botones[0].addEventListener("click", () => this.arrancar());
-		botones[1].addEventListener("click", () => this.parar());
-		botones[2].addEventListener("click", () => this.reiniciar());
+    let botones = document.querySelectorAll("button");
+    botones[0].addEventListener("click", () => this.arrancar());
+    botones[1].addEventListener("click", () => this.parar());
+    botones[2].addEventListener("click", () => this.reiniciar());
   }
 
   ahora() {

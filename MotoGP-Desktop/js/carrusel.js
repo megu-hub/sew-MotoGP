@@ -30,9 +30,11 @@ class Carrusel {
     }
 
     procesarJSONFotografias(jsonData) {
+        const esMovil = window.innerWidth <= 799;
+        const sufijo = esMovil ? "_n.jpg" : "_z.jpg"; 
         this.fotos = jsonData.items.slice(0, this.#maximo).map(item => ({
             titulo: item.title,
-            url: item.media.m.replace("_m.jpg", "_z.jpg"),
+            url: item.media.m.replace("_m.jpg", sufijo),
             enlace: item.link
         }));
     }
