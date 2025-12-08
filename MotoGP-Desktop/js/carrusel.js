@@ -57,7 +57,7 @@ insertarFoto(foto) {
         <article>
             <h2>Imágenes del circuito de ${this.#busqueda}</h2>
             <a href="${foto.enlace}" target="_blank">
-                <img src="${foto.url}" alt="${foto.titulo}" width="640">
+                <img src="${foto.url}" alt="${foto.titulo}">
             </a>
         </article>
     `);
@@ -67,3 +67,4 @@ insertarFoto(foto) {
 }
 
 }
+
