@@ -34,7 +34,7 @@ class Carrusel {
         const sufijo = esMovil ? "_n.jpg" : "_z.jpg"; 
         this.fotos = jsonData.items.slice(0, this.#maximo).map(item => ({
             titulo: item.title,
-            url: item.media.m.replace("_m.jpg", sufijo),
+            url: item.media.m,
             enlace: item.link
         }));
     }
@@ -67,4 +67,3 @@ insertarFoto(foto) {
 }
 
 }
-

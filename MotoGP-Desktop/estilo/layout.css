@@ -49,8 +49,15 @@ header{
         width:100%;
     }
 
+    /* Especifidad 003*/
     article h2 + img{
         
+        width:100%;
+        height:auto;
+    }
+
+    /* Especifidad 003*/
+    section + img{
         width:100%;
         height:auto;
     }
