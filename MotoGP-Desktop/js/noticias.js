@@ -35,25 +35,23 @@ class Noticias{
         });
     }
 
-   mostrarNoticias(noticias) {
-    const contenedor = $("section").eq(1);
-    contenedor.empty(); 
-
-    noticias.forEach(noticia => {
-        const articulo = $("<article></article>");
-        const titulo = $("<h3></h3>").text(noticia.titulo);
-        const entradilla = $("<p></p>").text(noticia.descripcion);
-        const enlace = $("<a></a>")
-            .attr("href", noticia.url)
-            .attr("target", "_blank")
-            .text("Leer noticia completa");
-        const fuente = $("<p></p>").text("Fuente: " + noticia.fuente);
-
-        articulo.append(titulo, entradilla, enlace, fuente);
-        contenedor.append(articulo);
-    });
-
-}
+    mostrarNoticias(noticias) {
+        
+        noticias.forEach(noticia => {
+            const articulo = $("<article></article>");
+            const titulo = $("<h2></h2>").text(noticia.titulo);
+            const entradilla = $("<p></p>").text(noticia.descripcion);
+            const enlace = $("<a></a>")
+                .attr("href", noticia.url)
+                .attr("target", "_blank")
+                .text("Leer noticia completa");
+            const fuente = $("<p></p>").text("Fuente: " + noticia.fuente);
+            
+            articulo.append(titulo, entradilla, enlace, fuente);
+            $("main").append(articulo);
+        });
+        
+    }
 
 
 }

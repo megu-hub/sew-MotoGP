@@ -51,14 +51,9 @@ header{
 
     /* Especifidad 003*/
     article h2 + img{
-        
         width:100%;
         height:auto;
+        justify-content: center;
     }
 
-    /* Especifidad 003*/
-    section + img{
-        width:100%;
-        height:auto;
-    }
 }

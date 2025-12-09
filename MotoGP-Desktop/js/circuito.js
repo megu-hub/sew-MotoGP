@@ -182,7 +182,7 @@ class CargadorSVG {
 
     comprobarApiFile() {
         if (!(window.File && window.FileReader && window.FileList && window.Blob)) {
-            document.write("<p>Este navegador NO soporta el API File</p>");
+            console.log("<p>Este navegador NO soporta el API File</p>");
         }
     }
 

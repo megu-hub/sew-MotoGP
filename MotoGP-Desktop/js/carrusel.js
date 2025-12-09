@@ -30,11 +30,9 @@ class Carrusel {
     }
 
     procesarJSONFotografias(jsonData) {
-        const esMovil = window.innerWidth <= 799;
-        const sufijo = esMovil ? "_n.jpg" : "_z.jpg"; 
         this.fotos = jsonData.items.slice(0, this.#maximo).map(item => ({
             titulo: item.title,
-            url: item.media.m,
+            url: item.media.m.replace("_m.jpg", "_z.jpg"),
             enlace: item.link
         }));
     }
@@ -52,18 +50,22 @@ class Carrusel {
     this._timer = setInterval(() => this.cambiarFotografia(), 3000);
 }
 
-insertarFoto(foto) {
-    const $article = $(`
-        <article>
-            <h2>Imágenes del circuito de ${this.#busqueda}</h2>
-            <a href="${foto.enlace}" target="_blank">
+    insertarFoto(foto) {
+        const $article = $(`
+            <article>
+                <h2>Imágenes del circuito de ${this.#busqueda}</h2>
                 <img src="${foto.url}" alt="${foto.titulo}">
-            </a>
-        </article>
-    `);
-
-    // Solo vaciamos la sección del carrusel
-    $("section").eq(0).empty().append($article);
-}
-
+            </article>
+        `);
+        
+        // Buscar si ya existe el article del carrusel
+        const carruselExistente = $("main article").first();
+        
+        if (carruselExistente.length && carruselExistente.find("img").length) {
+            carruselExistente.replaceWith($article);
+        } else {
+            $("main").prepend($article);
+        }
+        
+    }
 }
