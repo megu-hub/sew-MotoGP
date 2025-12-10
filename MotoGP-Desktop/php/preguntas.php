@@ -98,7 +98,7 @@ if ($formularioPOST) {
     <form action="#" method="post" name="formulario">
 
         <p>1. ¿Qué es el control de tracción?</p>
-        <input type="text" name="pregunta1"/>
+        <textarea name='pregunta1' rows='3' cols='80'></textarea>
         <span><?php echo $error1; ?></span>
 
         <p>2. ¿Cuántas fotografías hay en la sección de piloto?</p>
