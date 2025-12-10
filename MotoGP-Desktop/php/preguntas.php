@@ -34,8 +34,13 @@ if (count($_POST) > 0) {
         $errorFormulario = true;
     }
 
-    if (empty($_POST["pregunta5"])) {
-        $error5 = " * Esta pregunta es obligatoria";
+    if (empty($_POST["pregunta5hora"])) {
+        $error5 = " * La hora es obligatoria";
+        $errorFormulario = true;
+    }
+
+    if (empty($_POST["pregunta5minutos"])) {
+        $error5 = " * Los minutos son obligatorios";
         $errorFormulario = true;
     }
 
@@ -102,19 +107,19 @@ if ($formularioPOST) {
         <span><?php echo $error1; ?></span>
 
         <p>2. ¿Cuántas fotografías hay en la sección de piloto?</p>
-        <input type="number" name="pregunta2"/>
+        <input type="number" name="pregunta2" min = "0"/>
         <span><?php echo $error2; ?></span>
 
         <p>3. ¿Cuántas cartas hay en el juego de memoria?</p>
-        <input type="number" name="pregunta3"/>
+        <input type="number" name="pregunta3" min = "0"/>
         <span><?php echo $error3; ?></span>
 
         <p>4. ¿Cuántos botones tiene el cronómetro?</p>
-        <input type="number" name="pregunta4"/>
+        <input type="number" name="pregunta4" min = "0"/>
         <span><?php echo $error4; ?></span>
 
         <p>5. ¿A qué hora comenzó la carrera en Termas del Rio Hondo?</p>
-        <input type="text" name="pregunta5"/>
+        <input type="number" name="pregunta5hora" min = "0" max="23"/>:<input type="number" name="pregunta5minutos" min = "0" max="60"/>
         <span><?php echo $error5; ?></span>
 
         <p>6. ¿Para cuántos días de entreno se muestra su meteorología?</p>

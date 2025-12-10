@@ -16,12 +16,6 @@ $formularioPOST  = "";
 if(count($_POST) > 0) {   
     $formularioPOST  = $_POST;
 
-    // VALIDAR IDENTIFICADOR
-    if(empty($_POST["identificador"])){
-        $errorID = " * El identificador es obligatorio";
-        $errorFormulario = true;
-    }
-
     if(empty($_POST["profesion"])){
         $errorProf = " * La profesión es obligatoria";
         $errorFormulario = true;
@@ -51,7 +45,6 @@ if ($formularioPOST) {
     }
     else{
 
-        $_SESSION["identificador"] = $_POST["identificador"];
         $_SESSION["profesion"]     = $_POST["profesion"];
         $_SESSION["edad"]          = $_POST["edad"];
         $_SESSION["genero"]        = $_POST["genero"];
@@ -78,12 +71,6 @@ if ($formularioPOST) {
     <h2>Información del usuario</h2>
 
     <form action="#" method="post" name="formulario">
-
-        <p>Identificador:</p>
-        <p>
-            <input type='number' name='identificador'/>
-            <span><?php echo $errorID; ?></span>
-        </p>
 
         <p>Profesión:</p> 
         <p>
